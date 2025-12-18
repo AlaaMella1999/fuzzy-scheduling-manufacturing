@@ -1,0 +1,138 @@
+{
+  "export_time": "2025-12-13T17:23:34.130934",
+  "jobs": [
+    {
+      "job_id": "J001",
+      "name": "Engine Block Machining",
+      "processing_time": 15.0,
+      "due_date": "2025-12-15T17:23:24.488481",
+      "arrival_time": "2025-12-13T17:23:24.488481",
+      "machine_required": "M1",
+      "priority_score": 50.0,
+      "status": "scheduled",
+      "assigned_machine": "M1",
+      "start_time": "2025-12-13T17:23:24.489129",
+      "completion_time": "2025-12-14T08:23:24.489129"
+    },
+    {
+      "job_id": "J002",
+      "name": "Gear Assembly",
+      "processing_time": 8.0,
+      "due_date": "2025-12-14T17:23:24.488481",
+      "arrival_time": "2025-12-13T17:23:24.488481",
+      "machine_required": "M3",
+      "priority_score": 50.0,
+      "status": "scheduled",
+      "assigned_machine": "M3",
+      "start_time": "2025-12-13T17:23:24.489129",
+      "completion_time": "2025-12-14T01:23:24.489129"
+    },
+    {
+      "job_id": "J003",
+      "name": "Frame Welding",
+      "processing_time": 20.0,
+      "due_date": "2025-12-16T17:23:24.488481",
+      "arrival_time": "2025-12-13T17:23:24.488481",
+      "machine_required": "M2",
+      "priority_score": 50.0,
+      "status": "scheduled",
+      "assigned_machine": "M2",
+      "start_time": "2025-12-13T17:23:24.489129",
+      "completion_time": "2025-12-14T13:23:24.489129"
+    },
+    {
+      "job_id": "J004",
+      "name": "Component Finishing",
+      "processing_time": 5.0,
+      "due_date": "2025-12-14T09:23:24.488481",
+      "arrival_time": "2025-12-13T17:23:24.488481",
+      "machine_required": "M1",
+      "priority_score": 50.0,
+      "status": "scheduled",
+      "assigned_machine": "M1",
+      "start_time": "2025-12-14T08:23:24.489129",
+      "completion_time": "2025-12-14T13:23:24.489129"
+    },
+    {
+      "job_id": "J005",
+      "name": "Quality Inspection",
+      "processing_time": 3.0,
+      "due_date": "2025-12-14T05:23:24.488481",
+      "arrival_time": "2025-12-13T17:23:24.488481",
+      "machine_required": "M3",
+      "priority_score": 50.0,
+      "status": "scheduled",
+      "assigned_machine": "M3",
+      "start_time": "2025-12-14T01:23:24.489129",
+      "completion_time": "2025-12-14T04:23:24.489129"
+    },
+    {
+      "job_id": "J006",
+      "name": "Precision Cutting",
+      "processing_time": 12.0,
+      "due_date": "2025-12-15T05:23:24.488481",
+      "arrival_time": "2025-12-13T17:23:24.488481",
+      "machine_required": "M1",
+      "priority_score": 50.0,
+      "status": "scheduled",
+      "assigned_machine": "M1",
+      "start_time": "2025-12-14T13:23:24.489129",
+      "completion_time": "2025-12-15T01:23:24.489129"
+    },
+    {
+      "job_id": "J007",
+      "name": "Surface Treatment",
+      "processing_time": 6.0,
+      "due_date": "2025-12-14T13:23:24.488481",
+      "arrival_time": "2025-12-13T17:23:24.488481",
+      "machine_required": "M2",
+      "priority_score": 50.0,
+      "status": "scheduled",
+      "assigned_machine": "M2",
+      "start_time": "2025-12-14T13:23:24.489129",
+      "completion_time": "2025-12-14T19:23:24.489129"
+    },
+    {
+      "job_id": "J008",
+      "name": "Final Assembly",
+      "processing_time": 10.0,
+      "due_date": "2025-12-14T23:23:24.488481",
+      "arrival_time": "2025-12-13T17:23:24.488481",
+      "machine_required": "M3",
+      "priority_score": 50.0,
+      "status": "scheduled",
+      "assigned_machine": "M3",
+      "start_time": "2025-12-14T04:23:24.489129",
+      "completion_time": "2025-12-14T14:23:24.489129"
+    }
+  ],
+  "machines": [
+    {
+      "machine_id": "M1",
+      "name": "CNC Machine 1",
+      "capacity": 1.0,
+      "total_processing_time": 32.0,
+      "utilization": 0.8,
+      "current_load": 32.0,
+      "scheduled_jobs_count": 3
+    },
+    {
+      "machine_id": "M2",
+      "name": "Welding Station 1",
+      "capacity": 1.0,
+      "total_processing_time": 26.0,
+      "utilization": 0.65,
+      "current_load": 26.0,
+      "scheduled_jobs_count": 2
+    },
+    {
+      "machine_id": "M3",
+      "name": "Assembly Line 1",
+      "capacity": 1.0,
+      "total_processing_time": 21.0,
+      "utilization": 0.525,
+      "current_load": 21.0,
+      "scheduled_jobs_count": 3
+    }
+  ]
+}
